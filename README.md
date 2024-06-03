@@ -12,7 +12,6 @@ kubectl apply -f https://raw.githubusercontent.com/ketches/lovo/master/deploy/ma
 
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/ketches/lovo/master/deploy/example/mysql-with-lovo.yaml
-EOF
 ```
 
 验证，创建成功后会自动创建一个 `local` 类型的 PV。
