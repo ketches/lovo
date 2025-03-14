@@ -146,7 +146,7 @@ func (r *PersistentVolumeClaimReconciler) reclaimPersistentVolume(ctx context.Co
 }
 
 func targetPersistentVolumeName(pvc *corev1.PersistentVolumeClaim) string {
-	return "lovo-" + string(pvc.GetUID())
+	return "pvc-" + string(pvc.GetUID())
 }
 
 func targetPersistentVolumeLocalPath(pvc *corev1.PersistentVolumeClaim) string {
